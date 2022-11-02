@@ -19,5 +19,6 @@ build_lib(
     test/Ipv4Filter.h
   LIBRARIES_TO_LINK ${libcore}
                     ${libtraffic-control}
+                    ${libcsma}
   TEST_SOURCES test/tsn-test-suite.cc
 )

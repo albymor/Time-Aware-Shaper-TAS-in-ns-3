@@ -4,6 +4,7 @@ set(base_examples
     tsn-example3
     tsn-example4
     tsn-example5
+    tsn-example-wifi
 )
 
 foreach(
@@ -19,6 +20,7 @@ foreach(
                       ${libpoint-to-point}
                       ${libinternet}
                       ${libapplications}
+                      ${libwifi}
   )
 endforeach()
 
